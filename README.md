@@ -1,16 +1,49 @@
-# React + Vite
+I'm excited to share my latest React mini project: a professional scientific calculator built entirely with React.js, Hooks, and mathjs.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was a great exercise in front-end development, state management, and modular component design, and it includes a host of features that make it feel like a real scientific calculator.
 
-Currently, two official plugins are available:
+Key Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Basic Arithmetic & Operator Precedence
 
-## React Compiler
+Addition, subtraction, multiplication, division, and exponentiation
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Parentheses support for complex calculations
 
-## Expanding the ESLint configuration
+✅ Scientific Functions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+sin, cos, tan, log, ln, sqrt, pi
+
+Supports Degrees/Radians toggle for trigonometric calculations
+
+✅ Memory Functions
+
+M+, M-, MR to store, recall, and manipulate memory values
+
+✅ History Panel
+
+Tracks all previous calculations
+
+Clickable history items for quick reuse
+
+✅ Theme Toggle
+
+Switch between Dark and Light modes dynamically
+
+✅ Keyboard Support
+
+Full keyboard interaction for numbers, operators, parentheses, and Enter/Backspace
+
+Technical Highlights:
+
+React Hooks (useState, useEffect) for state and event management
+
+Modular component design: Display, Button, ButtonPanel, HistoryPanel
+
+Safe calculation logic with mathjs
+
+CSS variables for easy theme switching
+
+Fully responsive layout and professional UI
+<img width="1406" height="829" alt="Screenshot 2025-09-29 132357" src="https://github.com/user-attachments/assets/f4a0de0a-5712-434a-9c12-b5e4830bea07" />
+
