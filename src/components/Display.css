@@ -1,0 +1,19 @@
+.display-container {
+  background-color: #1e1f23;  /* Dark background for the display */
+  color: #ffffff;             /* Text color */
+  font-size: 2.2rem;          /* Large text */
+  font-weight: 500;           /* Medium weight */
+  padding: 20px 15px;         /* More padding for better spacing */
+  border-radius: 10px;        /* Rounded corners */
+  margin-bottom: 15px;        /* Space below the display */
+  min-height: 70px;           /* Minimum height for consistency */
+  display: flex;
+  justify-content: flex-end;  /* Align text to the right */
+  align-items: center;        /* Vertically center the text */
+  box-shadow: inset 0 -4px 10px rgba(0, 0, 0, 0.3); /* Subtle inner shadow */
+  overflow-x: auto;           /* Scroll if text overflows */
+}
+
+.display-value {
+  white-space: nowrap;        /* Keep long expressions in a single line */
+}

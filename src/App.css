@@ -1,0 +1,68 @@
+/* Simple, clean calculator UI */
+.calculator-container {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.calculator {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 350px;
+}
+
+.display-container {
+  background-color: #e6e6e6;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 2rem;
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 15px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #d9d9d9;
+  color: #333333;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #bfbfbf;
+}
+
+.btn-ac { background-color: #ff4d4d; color: white; }
+.btn-del { background-color: #ff944d; color: white; }
+.btn-equal { background-color: #4d94ff; color: white; }
+.btn-mem { background-color: #8c8cff; color: white; }
+
+.history-panel {
+  background-color: #e6e6e6;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  max-height: 400px;
+  overflow-y: auto;
+  margin-top: 20px;
+}
+
+.history-panel li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ffffff;
+  cursor: pointer;
+}
